@@ -1,0 +1,448 @@
+* {
+    box-sizing: border-box;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1399px;
+    width: 100%;
+    margin: 0 auto;
+}
+  body {
+    font-family: 'Mitr', sans-serif;
+    padding: 0px;
+    background: white;
+  
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 0px;
+    text-align: center;
+    background: white;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-right: 70px;
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+  
+  }
+  .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;   
+    padding: 0;
+    align-content: center;
+  }
+  .form-outline{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: gray;
+  }
+  .button{
+      margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: rgba(241, 240, 240, 0.898);
+    color: black;
+  }
+
+  /* Fake image */
+ 
+ /* .fakeimg3 {
+      background-image: url(picture/โครงการแนะนำ1.png);
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    border-radius:10px 10px 0 0 ;
+    object-fit: cover;
+  }
+
+  .img-sugges-size{
+
+    height:255px; text-align: right;
+
+
+  }
+*/
+  .fakeimg2 {
+    padding: 10px;
+    padding-top: 50px;
+    font-size: 45px;
+    margin: 10px;
+    color: #fdfdfd;
+    height:160px;
+     width: 323px;
+     text-align: center;
+     border-radius:10px;
+
+    
+  }
+  .fakeimg4 {
+    text-align: center;
+    padding: 20px;
+    border-radius:10px 10px 0 0 ;
+    object-fit: cover;
+
+  }
+  .img1 {
+    background-image: url(picture/โครงการบ้านใหม่.png);
+    filter: brightness(0.8);
+    
+  }
+  .img2 {
+    background-image: url(picture/บ้านมือสอง.png);
+    filter: brightness(0.8);
+  }
+  .img3 {
+    background-image: url(picture/เช่า_หอพัก.png);
+    filter: brightness(0.8);
+    
+  }
+  .project{
+    display: flex; 
+    flex-direction: row; 
+    position:relative; 
+    justify-content: center;
+   /* align-content: center;
+    text-align: center;*/
+    padding: 20px;
+    margin: 10px;
+    border-radius:10px;
+
+  }
+  .b{
+    display: flex; 
+    flex-direction: row; 
+    position:relative; 
+  }
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    
+  }
+  
+  .row{
+      padding-left: 15%;
+      padding-right: 15%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: left;
+    margin-top: 10%;
+  
+  }
+ .imgslide1,.imgslide2,.imgslide3{
+   background-image: url(picture/w.png);
+
+ }
+  
+ 
+  .mySlides {
+    
+    display:none; 
+    border:3px solid black ; 
+    border-radius:10px;
+    padding: 80px;
+    padding-top: 50px;
+    font-size: 45px;
+    color: #000000;
+     text-align: center;
+
+
+
+  }
+  .w3-left, .w3-right, .w3-badge {cursor:pointer ; color: rgb(82, 161, 201);}
+  .w3-badge {height:13px; width:13px; padding:0}
+
+  
+  .content-slide{
+  
+      border-radius:10px
+  }
+  
+  
+  .img-services{
+  margin: 10px;
+  border-radius: 10px;
+  }
+
+
+.img-sugges-size{
+
+  height:255px; text-align: right;
+
+}
+
+div.img {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 231px;
+  object-fit: contain;
+  border-radius:10px;
+  background-color: #fdfdfd;
+   
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.positionHeart{
+  position: absolute; margin-top: -155px; margin-left: 185px;  object-fit: contain;
+ 
+}
+.positionProfile{
+  position: absolute; margin-top: -40px; margin-left: 165px;  object-fit: contain;
+}
+.positionPicProfile{
+  position: absolute; margin-top: -40px; margin-left: 175px;  object-fit: contain;
+}
+.positionmud{
+  position: absolute; margin-top: -28px; margin-left: 2px;  object-fit: contain;
+}
+.positionttextmud{
+  position: absolute;  
+  color: rgb(255, 255, 255); margin: 0; padding: 0 0 0 0.6em; font-size: 13px;  }
+
+
+
+  .box{
+      
+      background-color: rgba(251, 251, 251, 0.809);
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      width: 20em;
+
+  }
+  .content-sugges,.content-newthing, .content-npa{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+  }
+  
+  
+  .box-size{
+      height:255px; 
+      width: 240px;
+      margin-top: 10px;
+  }
+  .fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 10px;
+  border-radius:10px 10px 0 0 ;
+  object-fit: cover;
+}
+
+.imgnewthing1{
+  background-image: url(picture/ค.ก.เปิดตัว1.png);
+
+}
+.imgnewthing2{
+  background-image: url(picture/ค.ก.เปิดตัว2.png);
+}
+
+  .box-size-newthing{
+      height:400px; 
+      width: 500px;
+      margin-top: 10px;
+      margin:10px;
+      border-radius:10px;
+  
+  }
+  .imgNPA1{
+    background-image: url(picture/BG_npa_GHbank.png);
+  }
+  .imgNPA2{
+    background-image: url(picture/BG_npa_KTbank.png);
+  }
+  .imgNPA3{
+    background-image: url(picture/BG_npa_BKbank.png);
+  }
+  .imgNPA4{
+    background-image: url(picture/BG_npa_SCBbank.png);
+  }
+  
+  .box-img-size-npa{
+      height:200px; width: 320px; align-content: center;
+      border-radius:10px;
+      margin: 10px;
+      
+      
+    }
+  .size-img-bank{
+    width: 150px;
+    height:150px;
+    border-radius: 50%; 
+    /*border: 3px solid tomato; */
+    
+  }
+  .column-newthing, .column-footer {
+    float: left;
+    width: 50%;
+    padding: 0 0 0 0;
+    margin: 0;
+    
+  }
+  
+   
+  .row-newthing, .row-footer {
+  padding: 0%;
+  font-size: 20px;
+  border-radius:10px;
+  
+  }
+  i{
+      font-size: 30px;
+      margin-top: 0;
+  }
+  a{
+    text-decoration:none;
+}
+p{
+    padding:10px;
+    margin: 0%;
+    border: none;
+    font-weight: bold;
+}
+h1, h3{
+    font-weight: bold;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ads-left, .ads-right{
+    position: fixed;
+    width: 220px;
+    height: 780px;
+    margin-bottom: 100%;
+    background-color: #a0a0a0ef;
+    text-align: center;
+    font-size: 60px;
+  }
+.ads-left {
+   top: 160px; left: 0;
+  }
+  .ads-right {
+    top: 160px; right: 0;
+    
+  }
+  .ads-buttom {
+    position: fixed;
+    left: 20%;
+    bottom: 0;
+    font-size: 18px;
+    width: 900px;
+    height: 180px;
+    background-color: #a0a0a0ef;
+    text-align: center;
+    font-size: 60px;
+  }
+  .ads-button{
+
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    font-size: 0;
+    margin: 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 90%
+  }
+  .ads-buttonL{
+    position:fixed;
+    align-content: left; 
+    margin-left: 80px;
+    margin-top: -330px;
+    color: #d51313; 
+    border: none;
+  }
+  .ads-buttonR { 
+    position:fixed;
+    right: 190px;
+    margin-top: -330px;
+    color: #d51313; 
+    border: none;
+}
+.ads-buttonB{
+    position:fixed;
+    align-content: top;
+    margin-left: 410px;
+    margin-top: -130px;
+    border: none;
+    color: #d51313; 
+
+}
+.textAds{
+   color: aliceblue; text-shadow: 2px 2px 8px #696969;
+   font-size: 50px;
+
+}
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
